@@ -20,7 +20,7 @@ export const ClothesSlider = () => {
         <span>Ofertas em Moda para toda a família</span>
         <Swiper
             navigation={true}
-            slidesPerView={5}
+            slidesPerView={4}
             spaceBetween={10}
             modules={[Navigation]}
         >

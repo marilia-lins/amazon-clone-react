@@ -8,7 +8,7 @@ export const HomeCards = ({title, img, link}) => {
         <div>
             <img src={img} alt="grid" />
         </div>
-        <a href="#">{link}</a>
+        <a>{link}</a>
     </div>
   )
 }

@@ -12,6 +12,7 @@ import { BookSlider } from '../../components/BookSlider'
 import { PhoneSlider } from '../../components/PhoneSlider'
 import { ClothesSlider } from '../../components/ClothesSlider'
 import { HomeSlider } from '../../components/HomeSlider'
+import { ToastContainer } from 'react-toastify'
 
 export const Home = () => {
   return (
@@ -62,6 +63,7 @@ export const Home = () => {
             <HomeSlider/>
         </div>
         
+        <ToastContainer />
 
     </div>
   )

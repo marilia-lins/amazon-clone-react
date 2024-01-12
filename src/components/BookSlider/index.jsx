@@ -20,7 +20,7 @@ export const BookSlider = () => {
         <span>Ofertas em Livros para você</span>
         <Swiper
             navigation={true}
-            slidesPerView={5}
+            slidesPerView={4}
             spaceBetween={10}
             modules={[Navigation]}
         >

@@ -20,10 +20,19 @@ export const Cart = () => {
 
   return (
     <>
-    {products.length >= 1 ? <span className={style.cheio}>Seu carrinho de compras:</span> : <span className={style.vazio}>Seu carrinho de compras está vazio.</span>}
-    <div className={style.carts}>
+    {products.length >= 1 ? 
+    <>
+      <span className={style.cheio}>
+        Seu carrinho de compras:
+      </span> 
+      <div className={style.carts}>
         {carts}
-    </div>
+      </div>
+    </>
+    : 
+    <span className={style.vazio}>
+      Seu carrinho de compras está vazio.
+    </span>}
     </>
   )
 }

@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
+:root{
+  --toastify-toast-width: 70px;
+  --toastify-toast-background: #fff;
+  --toastify-toast-min-height: 40px;
+  --toastify-toast-max-height: 300px;
+  --toastify-font-family: sans-serif;
+  --toastify-z-index: 9999;
+}
+
+
 body {
   margin: 0;
   font-family: 'PT Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 100vw
+  width: 100vw;
 }
 
 code {
