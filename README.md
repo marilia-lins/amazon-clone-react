@@ -16,8 +16,6 @@
 <br/>
 ![amazongif3](https://github.com/marilia-lins/amazon-clone-react/assets/121808358/d8b6c84a-ee82-402c-82b1-f1179c8fa912)
 
-## Getting Started
-
 ### Installing and running
 
 ```
