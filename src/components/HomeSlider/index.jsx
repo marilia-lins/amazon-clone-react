@@ -23,6 +23,20 @@ export const HomeSlider = () => {
             slidesPerView={5}
             spaceBetween={10}
             modules={[Navigation]}
+            breakpoints={{
+                320: {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                480: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 4,
+                  spaceBetween: 30,
+                }
+              }}
         >
                 {casas.map((casa) => (
                     <SwiperSlide key={casa.id}>
