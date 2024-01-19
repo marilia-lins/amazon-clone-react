@@ -19,7 +19,7 @@ export const Cart = () => {
     ))
 
   return (
-    <>
+    <div className={style.pagina}>
     {products.length >= 1 ? 
     <>
       <span className={style.cheio}>
@@ -33,6 +33,6 @@ export const Cart = () => {
     <span className={style.vazio}>
       Seu carrinho de compras está vazio.
     </span>}
-    </>
+    </div>
   )
 }
