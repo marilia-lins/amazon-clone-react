@@ -24,6 +24,25 @@ cd amazon-clone-react
 npm install
 npm start
 ```
+The project will run at http://localhost:3000
+
+## Here are the key dependencies used in this project and their versions:
+
+- **@heroicons/react:** ^2.0.18
+- **@reduxjs/toolkit:** ^1.9.7
+- **@testing-library/jest-dom:** ^5.17.0
+- **@testing-library/react:** ^13.4.0
+- **@testing-library/user-event:** ^13.5.0
+- **react:** ^18.2.0
+- **react-dom:** ^18.2.0
+- **react-query:** ^3.39.3
+- **react-redux:** ^8.1.3
+- **react-router-dom:** ^6.19.0
+- **react-scripts:** ^5.0.1
+- **react-toastify:** ^9.1.3
+- **sass:** ^1.69.5
+- **swiper:** ^11.0.4
+- **web-vitals:** ^2.1.4
 
 ## Details & Description
 
